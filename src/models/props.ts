@@ -5,6 +5,10 @@ export interface MainProps {
   data: EventsCategory[];
 }
 
+export interface HomeProps {
+  data: EventsCategory[];
+}
+
 export interface EventCitiesProps {
   title: string;
   data: EventsCategory[];
