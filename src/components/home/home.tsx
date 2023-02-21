@@ -1,12 +1,11 @@
 import { HomeProps } from '@/models/props';
-import styles from '@/styles/Home.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
 
 const HomePage = (props: HomeProps) => {
   const { data } = props;
   return (
-    <main className={styles.main}>
+    <main className="home_body">
       {data.map((ev) => {
         return (
           <Link key={ev.id} href={`/events/${ev.id}`}>

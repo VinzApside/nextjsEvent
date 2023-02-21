@@ -1,37 +1,36 @@
-import Link from 'next/link';
-
 const AboutUsPage = () => {
   return (
     <div>
-      <h1>About us Page</h1>
-      <div>
-        <Link href="">
-          <h2>1</h2>
+      <h1> About us Page</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+        anim id est laborum.
+      </p>
+      <h2>Dlor in reprehenderit </h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+        anim id est laborum.
+      </p>
+      <ul className="about_us_list">
+        <li>
+          <h3>Dlor in reprehenderit </h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ut, harum necessitatibus fuga repellendus, ducimus voluptatem, cupiditate
-            rem dolor quae veniam sequi distinctio nisi vel placeat aliquid. Quia, quae harum. Lorem ipsum dolor sit amet consectetur adipisicing
-            elit. Error inventore vero minima ipsam neque. Nam consectetur voluptas expedita adipisci maiores, nemo quam, ducimus harum nihil deserunt
-            reiciendis autem, exercitationem voluptate!
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+            minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
           </p>
-        </Link>
-        <Link href="">
-          <h2>2</h2>
+        </li>
+        <li>
+          <h3>Sed do eiusmod tempor </h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias in officia saepe, molestiae tenetur cumque reprehenderit rerum repellat
-            accusamus dolore consequuntur itaque perspiciatis modi iure soluta debitis? Fuga, accusantium odio?
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+            minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
           </p>
-        </Link>
-        <Link href="">
-          <h2>3</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad voluptatem eos
-            dignissimos quae blanditiis neque, minima ratione. Libero blanditiis, aliquid non consequuntur qui asperiores dicta eum beatae sed illo
-            autem. Quidem ut, harum necessitatibus fuga repellendus, ducimus voluptatem, cupiditate rem dolor quae veniam sequi distinctio nisi vel
-            placeat aliquid. Quia, quae harum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error inventore vero minima ipsam neque. Nam
-            consectetur voluptas expedita adipisci maiores, nemo quam, ducimus harum nihil deserunt reiciendis autem, exercitationem voluptate!
-          </p>
-        </Link>
-      </div>
+        </li>
+      </ul>
     </div>
   );
 };

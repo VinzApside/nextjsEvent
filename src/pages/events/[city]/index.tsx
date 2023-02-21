@@ -6,7 +6,7 @@ import Link from 'next/link';
 const EventsPerCityPage = (props: EventsCityProps) => {
   const { data, cityName } = props;
   return (
-    <div>
+    <div className="cat_events">
       <h1>{`Events in ${cityName.toUpperCase()}`}</h1>
 
       <div>
@@ -41,7 +41,7 @@ export async function getStaticPaths() {
   };
 }
 
-export async function getStaticProps(context: unknown) {
+export async function getStaticProps(context: any) {
   const { allEvents }: ImportedDatas = await import('../../../../data/data.json');
   const id: string = context?.params.city;
 

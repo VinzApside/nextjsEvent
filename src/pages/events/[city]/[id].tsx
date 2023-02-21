@@ -7,7 +7,7 @@ const SingleEventPage = (props: EventsCityProps) => {
   console.log({ data });
 
   return (
-    <div>
+    <div className="event_single_page">
       <Image src={data.image} alt={data.title} width={500} height={300} />
       <h1>{data.title}</h1>
       <p>{data.description}</p>

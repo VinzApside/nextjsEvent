@@ -5,7 +5,7 @@ import Image from 'next/image';
 const EventIndexPage = (props: EventCitiesProps) => {
   const { title, data } = props;
   return (
-    <div>
+    <div className="cat_events">
       <h1>{title}</h1>
 
       {data.map((ev) => {
