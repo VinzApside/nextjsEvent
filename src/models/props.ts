@@ -15,6 +15,6 @@ export interface EventCitiesProps {
 }
 
 export interface EventsCityProps {
-  data: AllEvent[];
+  data: AllEvent;
   cityName: string;
 }

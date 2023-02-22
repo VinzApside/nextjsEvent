@@ -1,18 +1,12 @@
 import { ImportedDatas } from '@/models/datas';
 import { EventsCityProps } from '@/models/props';
-import Image from 'next/image';
+
+import SingleEvent from './single-event';
 
 const SingleEventPage = (props: EventsCityProps) => {
   const { data } = props;
-  console.log({ data });
 
-  return (
-    <div className="event_single_page">
-      <Image src={data.image} alt={data.title} width={500} height={300} />
-      <h1>{data.title}</h1>
-      <p>{data.description}</p>
-    </div>
-  );
+  return <SingleEvent data={data} />;
 };
 
 export default SingleEventPage;
